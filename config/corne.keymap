@@ -89,4 +89,23 @@
 		};
 
         };
+
+         /*.--------------------------------------.                         .----------------------------------------.
+         | HOME | PG_DN |  UP   | PG_UP |  END  |                         |   Ä   |   ß   |   U   |   Y   |  BSPC  |
+         |------+-------+-------+-------+-------|                         |-------+-------+-------+-------+--------|
+         | TAB  |  LEFT | DOWN  | RIGHT | ENTER |                         |   Ö   |   (   |   )   |   <   |   >    |
+         |------+-------+-------+-------+-------|                         |-------+-------+-------+-------+--------|
+         | ESC  | PSCRN |  DEL  |  BSPC |  BSPC |                         |   Ü   |   {   |   }   |   ?   |   !    |
+         '-----------------------------------------------|     |---------------------------------------------------'
+                        |  CTRL    |  SHIFT     |   UTIL |     |  FUNC   |  SPACE    |   WIN/GUI |
+                        '--------------------------------'     '----------------------------------'*/
+
+                util_layer {
+			bindings = <
+			&kp HOME        &kp PG_DN &kp UP     &kp PG_UP &kp END               &kp DE_ADIA  &kp DE_SS    &kp DE_LBKT   &kp DE_RBKT  &kp BSPC
+	                &kp TAB         &kp LEFT  &kp DOWN   &kp RIGHT &kp ENTER             &kp DE_ODIA  &kp DE_LPAR  &kp DE_RPAR   &kp DE_LT    &kp DE_GT    
+			&kp ESC         &kp PSCRN &kp DEL    &kp BSPC  &kp LC(BSPC)          &kp DE_UDIA  &kp DE_LBRC  &kp DE_RBRC   &kp DE_QMARK  &kp EXCL
+				                   &kp LCTRL &sk LSHIFT  &to UTIL          &to FUNC &kp SPACE &kp LMETA
+			>;
+		};
 };
