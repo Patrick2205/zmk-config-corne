@@ -90,7 +90,7 @@
 
         };
 
-         /*.--------------------------------------.                         .----------------------------------------.
+       /*.--------------------------------------.                         .----------------------------------------.
          | HOME | PG_DN |  UP   | PG_UP |  END  |                         |   Ä   |   ß   |   U   |   Y   |  BSPC  |
          |------+-------+-------+-------+-------|                         |-------+-------+-------+-------+--------|
          | TAB  |  LEFT | DOWN  | RIGHT | ENTER |                         |   Ö   |   (   |   )   |   <   |   >    |
@@ -106,6 +106,25 @@
 	                &kp TAB         &kp LEFT  &kp DOWN   &kp RIGHT &kp ENTER             &kp DE_ODIA  &kp DE_LPAR  &kp DE_RPAR   &kp DE_LT    &kp DE_GT    
 			&kp ESC         &kp PSCRN &kp DEL    &kp BSPC  &kp LC(BSPC)          &kp DE_UDIA  &kp DE_LBRC  &kp DE_RBRC   &kp DE_QMARK  &kp EXCL
 				                   &kp LCTRL &sk LSHIFT  &to UTIL          &to FUNC &kp SPACE &kp LMETA
+			>;
+		};
+
+       /*.--------------------------------------.                         .----------------------------------------.
+         |      |   "   |   \   |   |   |       |                         |   -   |   7   |   8   |   9   |   /    |
+         |------+-------+-------+-------+-------|                         |-------+-------+-------+-------+--------|
+         |   '  |   #   |   /   |   @   |   ^   |                         |   +   |   4   |   5   |   6   |   *    |
+         |------+-------+-------+-------+-------|                         |-------+-------+-------+-------+--------|
+         |   %  |   $   |   €   |   ~   |   &   |                         |   0   |   1   |   2   |   3   |   =    |
+         '-----------------------------------------------|     |---------------------------------------------------'
+                        |  CTRL    |  SHIFT     |   UTIL |     | SYMNUM   |  SPACE    |   WIN/GUI |
+                        '--------------------------------'     '----------------------------------'*/
+
+                symnum_layer {
+			bindings = <
+			&none         &kp DE_DQT   &kp DE_BSLH  &kp DE_PIPE   &none                &kp DE_MINUS	 &kp N7  &kp N8  &kp N9  &kp DE_FSLH
+			&kp DE_SQT    &kp DE_HASH  &kp DE_FSLH  &kp DE_AT     &kp DE_CARET         &kp DE_PLUS   &kp N4  &kp N5  &kp N6  &kp DE_ASTR       
+			&kp DE_PRCNT  &kp DE_DLLR  &kp DE_EURO  &kp DE_TILDE  &kp DE_AMPS          &kp N0    	 &kp N1  &kp N2  &kp N3  &kp DE_EQUAL
+				                          &kp LCTRL &sk LSHIFT  &to UTIL           &to SYMNUM &kp SPACE &kp LMETA 
 			>;
 		};
 };
