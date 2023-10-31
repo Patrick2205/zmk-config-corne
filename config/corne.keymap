@@ -103,10 +103,10 @@
 
                 util_layer {
 			bindings = <
-			&kp HOME        &kp PG_DN &kp UP     &kp PG_UP &kp END               &kp DE_ADIA  &kp DE_SS    &kp DE_LBKT   &kp DE_RBKT  &kp BSPC
-	                &kp TAB         &kp LEFT  &kp DOWN   &kp RIGHT &kp ENTER             &kp DE_ODIA  &kp DE_LPAR  &kp DE_RPAR   &kp DE_LT    &kp DE_GT    
-			&kp ESC         &kp PSCRN &kp DEL    &kp BSPC  &kp LC(BSPC)          &kp DE_UDIA  &kp DE_LBRC  &kp DE_RBRC   &kp DE_QMARK  &kp EXCL
-				                   &kp LCTRL &sk LSHIFT  &to UTIL          &to FUNC &kp SPACE &kp LMETA
+			&kp HOME        &kp PG_DN &kp UP     &kp PG_UP &kp END               &kp DE_ADIA  &kp DE_SS                     &kp DE_LBKT             &kp DE_RBKT             &kp BSPC
+	                &kp TAB         &kp LEFT  &kp DOWN   &kp RIGHT &kp ENTER             &kp DE_ODIA  &hm_shift_r RSHFT DE_LPAR     &hm_r RCTRL DE_RPAR     &hm_r RALT DE_LT        &hm_r RGUI DE_GT    
+			&kp ESC         &kp PSCRN &kp DEL    &kp BSPC  &kp LC(BSPC)          &kp DE_UDIA  &kp DE_LBRC                   &kp DE_RBRC             &kp DE_QMARK            &kp EXCL
+				                  &kp LCTRL  &sk LSHIFT  &to UTIL            &to FUNC     &kp SPACE                     &kp LMETA
 			>;
 		};
 
@@ -120,12 +120,14 @@
                         |  CTRL    |  SHIFT     |   UTIL |     | SYMNUM   |  SPACE    |   WIN/GUI |
                         '--------------------------------'     '----------------------------------'*/
 
+ &hm_l LGUI A    &hm_l LALT R    &hm_l LCTRL S   &hm_shift_l LSHFT T 
+
                 symnum_layer {
 			bindings = <
-			&none         &kp DE_DQT   &kp DE_BSLH  &kp DE_PIPE   &none                &kp DE_MINUS	 &kp N7  &kp N8  &kp N9  &kp DE_FSLH
-			&kp DE_SQT    &kp DE_HASH  &kp DE_FSLH  &kp DE_AT     &kp DE_CARET         &kp DE_PLUS   &kp N4  &kp N5  &kp N6  &kp DE_ASTR       
-			&kp DE_PRCNT  &kp DE_DLLR  &kp DE_EURO  &kp DE_TILDE  &kp DE_AMPS          &kp N0    	 &kp N1  &kp N2  &kp N3  &kp DE_EQUAL
-				                          &kp LCTRL &sk LSHIFT  &to UTIL           &to SYMNUM &kp SPACE &kp LMETA 
+			&none                   &kp DE_DQT              &kp DE_BSLH             &kp DE_PIPE             &none                   &kp DE_MINUS	&kp N7  &kp N8  &kp N9  &kp DE_FSLH
+			&hm_l LGUI DE_SQT       &hm_l LALT DE_HASH      &hm_l LCTRL DE_FSLH     &hm_shift_l LSHFT DE_AT &kp DE_CARET            &kp DE_PLUS     &kp N4  &kp N5  &kp N6  &kp DE_ASTR       
+			&kp DE_PRCNT            &kp DE_DLLR             &kp DE_EURO             &kp DE_TILDE            &kp DE_AMPS             &kp N0    	&kp N1  &kp N2  &kp N3  &kp DE_EQUAL
+				                                        &kp LCTRL               &sk LSHIFT              &to UTIL                &to SYMNUM      &kp SPACE &kp LMETA 
 			>;
 		};
 
