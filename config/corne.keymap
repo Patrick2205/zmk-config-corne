@@ -79,8 +79,6 @@
                         |  CTRL    |  SHIFT     |   UTIL |     | SYMNUM   |  SPACE    |   WIN/GUI |
                         '--------------------------------'     '----------------------------------'*/
 
- &hm_l LGUI A    &hm_l LALT R    &hm_l LCTRL S   &hm_shift_l LSHFT T 
-
                 symnum_layer {
 			bindings = <
 			&none                   &kp DE_DQT              &kp DE_BSLH             &kp DE_PIPE             &none                   &kp DE_MINUS	&kp N7  &kp N8  &kp N9  &kp DE_FSLH
