@@ -1,0 +1,42 @@
+// German Keycodes
+#define DE_PLUS RBKT // +
+#define DE_ASTR LS(DE_PLUS) // *
+#define DE_HASH NUHS // #
+
+#define DE_ODIA SEMI // ö
+#define DE_ADIA APOS // ä
+#define DE_UDIA LBKT // ü
+#define DE_SS MINUS // ß
+
+#define DE_MINUS FSLH // - and _
+#define DE_FSLH AMPS // /
+
+#define DE_DQT AT // "
+#define DE_SQT PIPE // '
+
+#define DE_Y Z // y
+#define DE_Z Y // z
+
+#define DE_QMARK LS(DE_SS) // ?
+#define DE_BSLH RA(DE_SS) // backslash
+#define DE_LPAR LS(NUMBER_8) 
+#define DE_RPAR LS(NUMBER_9) 
+
+#define DE_LBRC RA(NUMBER_7) 
+#define DE_RBRC RA(NUMBER_0) 
+#define DE_LBKT RA(NUMBER_8)  
+#define DE_RBKT RA(NUMBER_9) 
+
+#define DE_CARET GRAVE // ^
+#define DE_LT NUBS
+#define DE_GT LS(DE_LT)
+
+#define DE_AT RA(Q) // 
+#define DE_PIPE RA(NUBS) // |
+#define DE_TILDE RA(DE_PLUS) // ~
+
+#define DE_EURO RA(E) 
+#define DE_EQUAL LS(NUMBER_0) 
+#define DE_DLLR LS(NUMBER_4) 
+#define DE_PRCNT LS(NUMBER_5) 
+#define DE_AMPS LS(NUMBER_6) 
