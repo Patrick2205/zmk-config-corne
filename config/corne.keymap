@@ -18,12 +18,22 @@
 #define SYMNUM   2
 #define FUNC   3
 
+&sk {
+    release-after-ms = <1500>;
+	quick-release;
+    ignore-modifiers;
+};
+
+&sl {
+    release-after-ms = <1500>;
+};
 
 
 / {
         chosen {
               zmk,matrix_transform = &five_column_transform;
         };
+
 
 
         keymap {
