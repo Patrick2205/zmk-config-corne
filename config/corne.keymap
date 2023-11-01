@@ -44,7 +44,7 @@
 			&kp Q           &kp W           &kp F           &kp P                   &kp B                   &kp J         &kp L                     &kp U           &kp DE_Y        &kp BSPC
 	     	        &hm_l LGUI A    &hm_l LALT R    &hm_l LCTRL S   &hm_shift_l LSHFT T     &kp G                   &kp M         &hm_shift_r RSHFT N       &hm_r RCTRL E   &hm_r RALT I    &hm_r RGUI O          
 			&kp DE_Z        &kp X           &kp C           &kp D                   &kp V                   &kp K         &kp H                     &kp COMMA       &kp DOT         &kp DE_MINUS
-			                                &kp LCTRL       &sk LSHIFT              &sl UTIL                &sl SYMNUM    &kp SPACE                 &kp LMETA
+			                                &kp LCTRL       &sk LSHIFT              &kp A                   &kp A    &kp SPACE                 &kp LMETA
 			>;
 		};
 
