@@ -29,6 +29,11 @@
 };
 
 
+// display settings
+&nice_view_spi {
+    cs-gpios = <&gpio1 00 GPIO_ACTIVE_HIGH>;
+};
+
 / {
         chosen {
               zmk,matrix_transform = &five_column_transform;
