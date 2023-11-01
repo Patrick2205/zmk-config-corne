@@ -28,12 +28,6 @@
     release-after-ms = <1500>;
 };
 
-
-// display settings
-&nice_view_spi {
-    cs-gpios = <&gpio1 00 GPIO_ACTIVE_HIGH>;
-};
-
 / {
         chosen {
               zmk,matrix_transform = &five_column_transform;
@@ -124,4 +118,10 @@
 			>;
 		};
         };
+};
+
+// display settings
+// from https://discord.com/channels/675924128108118016/991852441832259714/1047447484475133963 
+&nice_view_spi {
+    cs-gpios = <&gpio1 00 GPIO_ACTIVE_HIGH>;
 };
