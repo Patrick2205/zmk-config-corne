@@ -123,5 +123,6 @@
 // display settings
 // from https://discord.com/channels/675924128108118016/991852441832259714/1047447484475133963 
 &nice_view_spi {
-    cs-gpios = <&gpio1 00 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
 };
+
