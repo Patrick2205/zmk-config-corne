@@ -15,7 +15,7 @@
 /////////////////
 // Layer definition
 #define DEFAULT 0
-#define UTIL   1
+#define UTIL   1b
 #define SYMNUM   2
 #define FUNC   3
 
@@ -124,6 +124,6 @@
 // display settings
 // from https://discord.com/channels/675924128108118016/991852441832259714/1047447484475133963 
 &nice_view_spi {
-    cs-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
 };
 
