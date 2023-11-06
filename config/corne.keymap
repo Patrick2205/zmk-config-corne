@@ -50,7 +50,7 @@
                         '--------------------------------'     '----------------------------------'*/
    
                 base_layer {
-                    label = "COLEMAK";
+                    label = "BASE";
 			bindings = <
 			&kp Q           &kp W           &kp F           &kp P                   &kp B                   &kp J         &kp L                     &kp U           &kp DE_Y        &kp BSPC
 	     	&hm_l LGUI A    &hm_l LALT R    &hm_l LCTRL S   &hm_shift_l LSHFT T     &kp G                   &kp M         &hm_shift_r RSHFT N       &hm_r RCTRL E   &hm_r RALT I    &hm_r RGUI O          
@@ -115,7 +115,7 @@
 
 
 		function_layer {
-                    label = "FUNCTION";
+                    label = "FUNC";
 			bindings = <
 			&bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2        &bt BT_SEL 3    &kp K_VOL_UP              &none    &kp F1     &kp F2     &kp F3     &kp F4
 			&bt BT_CLR    &bt BT_NXT        &none               &none     	    &kp K_MUTE               &none    &kp F5     &kp F6     &kp F7     &kp F8   
