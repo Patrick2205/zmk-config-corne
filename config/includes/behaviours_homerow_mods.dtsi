@@ -25,7 +25,7 @@
                 compatible = "zmk,behavior-hold-tap";
                 bindings = <&kp>,  <&kp>;
                 #binding-cells = <2>;
-                flavor = "balanced";
+                flavor = "tap-preferred";
                 label = "HOMEROW_MODS_LEFT";
                 tapping-term-ms = <HM_TAPPING_TERM>;
                 quick-tap-ms = <175>;
@@ -38,7 +38,7 @@
                 compatible = "zmk,behavior-hold-tap";
                 bindings = <&kp>, <&kp>;
                 #binding-cells = <2>;
-                flavor = "balanced";
+                flavor = "tap-preferred";
                 label = "HOMEROW_MODS_RIGHT";
                 tapping-term-ms = <HM_TAPPING_TERM>;
                 quick_tap_ms = <175>; 
