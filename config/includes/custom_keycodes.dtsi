@@ -18,25 +18,29 @@
 #define DE_Z Y // z
 
 #define DE_QMARK LS(DE_SS) // ?
-#define DE_BSLH RA(DE_SS) // backslash
+#define DE_BSLH RA(LS(NUMBER_7)) // backslash
 #define DE_LPAR LS(NUMBER_8) 
 #define DE_RPAR LS(NUMBER_9) 
 
-#define DE_LBRC RA(NUMBER_7) 
-#define DE_RBRC RA(NUMBER_0) 
-#define DE_LBKT RA(NUMBER_8)  
-#define DE_RBKT RA(NUMBER_9) 
+#define DE_LBRC RA(NUMBER_8)  // geschwungen
+#define DE_RBRC RA(NUMBER_9) 
+#define DE_LBKT RA(NUMBER_5)  //eckig
+#define DE_RBKT RA(NUMBER_6) 
 
 #define DE_CARET GRAVE // ^
 #define DE_LT NUBS
 #define DE_GT LS(DE_LT)
 
-#define DE_AT RA(Q) // 
-#define DE_PIPE RA(NUBS) // |
-#define DE_TILDE RA(DE_PLUS) // ~
+#define DE_AT RA(L) // 
+#define DE_PIPE RA(NUMBER_7) // |
+#define DE_TILDE RA(N) // ~
+#define DE_ACC RA(U) // ¨
+#define DE_MUE RA(M) //µ
 
 #define DE_EURO RA(E) 
 #define DE_EQUAL LS(NUMBER_0) 
 #define DE_DLLR LS(NUMBER_4) 
 #define DE_PRCNT LS(NUMBER_5) 
 #define DE_AMPS LS(NUMBER_6) 
+
+#define DE_DRUCK LS(LG(NUMBER_4))
