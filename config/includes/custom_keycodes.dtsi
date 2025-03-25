@@ -26,6 +26,25 @@
 #define DE_RBRC RA(LS(NUMBER_0))
 #define DE_LBKT RA(LS(NUMBER_8))  //eckig
 #define DE_RBKT RA(LS(NUMBER_9)) 
+#define DE_CARET GRAVE // ^
+#define DE_LT NUBS
+#define DE_GT LS(DE_LT)
+
+#define DE_AT RA(LS(Q)) // 
+#define DE_PIPE RA(LS(NUBS)) // |
+#define DE_TILDE RA(LS(DE_PLUS)) // ~
+#define DE_ACC RA(LS(U)) // ¨
+#define DE_MUE RA(LS(M)) //µ
+
+#define DE_EURO RA(LS(E)) 
+#define DE_EQUAL LS(NUMBER_0) 
+#define DE_DLLR LS(NUMBER_4) 
+#define DE_PRCNT LS(NUMBER_5) 
+#define DE_AMPS LS(NUMBER_6) 
+
+#define DE_DRUCK PSCRN
+#define DE_EXCL LS(NUMBER_) 
+
 
 // MAC German Keycodes
 // #define DE_PLUS RBKT // +
@@ -56,21 +75,21 @@
 // #define DE_LBKT RA(NUMBER_5)  //eckig
 // #define DE_RBKT RA(NUMBER_6) 
 
- #define DE_CARET GRAVE // ^
- #define DE_LT NUBS
- #define DE_GT LS(DE_LT)
+// #define DE_CARET GRAVE // ^
+// #define DE_LT NUBS
+// #define DE_GT LS(DE_LT)
 
- #define DE_AT RA(L) // 
- #define DE_PIPE RA(NUMBER_7) // |
- #define DE_TILDE RA(N) // ~
- #define DE_ACC RA(U) // ¨
- #define DE_MUE RA(M) //µ
+// #define DE_AT RA(L) // 
+// #define DE_PIPE RA(NUMBER_7) // |
+// #define DE_TILDE RA(N) // ~
+// #define DE_ACC RA(U) // ¨
+// #define DE_MUE RA(M) //µ
 
- #define DE_EURO RA(E) 
- #define DE_EQUAL LS(NUMBER_0) 
- #define DE_DLLR LS(NUMBER_4) 
- #define DE_PRCNT LS(NUMBER_5) 
- #define DE_AMPS LS(NUMBER_6) 
+// #define DE_EURO RA(E) 
+// #define DE_EQUAL LS(NUMBER_0) 
+// #define DE_DLLR LS(NUMBER_4) 
+// #define DE_PRCNT LS(NUMBER_5) 
+// #define DE_AMPS LS(NUMBER_6) 
 
- #define DE_DRUCK LS(LG(NUMBER_4))
- #define  DE_EXCL EXCL
+// #define DE_DRUCK LS(LG(NUMBER_4))
+// #define  DE_EXCL EXCL
