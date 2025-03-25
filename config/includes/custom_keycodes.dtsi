@@ -53,7 +53,7 @@
 
 // #define DE_ODIA SEMI // ö
 // #define DE_ADIA APOS // ä
-// #define DE_UDIA LBKT // ü
+// #define DE_UDIA LBRT // ü
 // #define DE_SS MINUS // ß
 
 // #define DE_MINUS FSLH // - and _
