@@ -43,7 +43,7 @@
 #define DE_AMPS LS(NUMBER_6) 
 
 #define DE_DRUCK PSCRN
-#define DE_EXCL LS(NUMBER_) 
+#define DE_EXCL LS(NUMBER_1) 
 
 
 // MAC German Keycodes
@@ -92,4 +92,4 @@
 // #define DE_AMPS LS(NUMBER_6) 
 
 // #define DE_DRUCK LS(LG(NUMBER_4))
-// #define  DE_EXCL EXCL
+// #define DE_EXCL EXCL
