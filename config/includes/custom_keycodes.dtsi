@@ -1,49 +1,49 @@
 
 
 // MAC German Keycodes
-#defineDE_PLUS RBKT // +
-#defineDE_ASTR LS(DE_PLUS) // *
-#defineDE_HASH NUHS // #
+ #define DE_PLUS RBKT // +
+ #define DE_ASTR LS(DE_PLUS) // *
+ #define DE_HASH NUHS // #
 
-#defineDE_ODIA SEMI // ö
-#defineDE_ADIA APOS // ä
-#defineDE_UDIA LBKT // ü
-#defineDE_SS MINUS // ß
+ #define DE_ODIA SEMI // ö
+ #define DE_ADIA APOS // ä
+ #define DE_UDIA LBKT // ü
+ #define DE_SS MINUS // ß
 
-#defineDE_MINUS FSLH // - and _
-#defineDE_FSLH AMPS // /
+ #define DE_MINUS FSLH // - and _
+ #define DE_FSLH AMPS // /
 
-#defineDE_DQT AT // "
-#defineDE_SQT PIPE // '
+ #define DE_DQT AT // "
+ #define DE_SQT PIPE // '
 
-#defineDE_Y Z // y
-#defineDE_Z Y // z
+ #define DE_Y Z // y
+ #define DE_Z Y // z
 
-#defineDE_QMARK LS(DE_SS) // ?
-#defineDE_BSLH RA(LS(NUMBER_7)) // backslash
-#defineDE_LPAR LS(NUMBER_8) 
-#defineDE_RPAR LS(NUMBER_9) 
+ #define DE_QMARK LS(DE_SS) // ?
+ #define DE_BSLH RA(LS(NUMBER_7)) // backslash
+ #define DE_LPAR LS(NUMBER_8) 
+ #define DE_RPAR LS(NUMBER_9) 
 
-#defineDE_LBRC RA(NUMBER_8)  // geschwungen
-#defineDE_RBRC RA(NUMBER_9) 
-#defineDE_LBKT RA(NUMBER_5)  //eckig
-#defineDE_RBKT RA(NUMBER_6) 
+ #define DE_LBRC RA(NUMBER_8)  // geschwungen
+ #define DE_RBRC RA(NUMBER_9) 
+ #define DE_LBKT RA(NUMBER_5)  //eckig
+ #define DE_RBKT RA(NUMBER_6) 
 
-#defineDE_CARET GRAVE // ^
-#defineDE_LT NUBS
-#defineDE_GT LS(DE_LT)
+ #define DE_CARET GRAVE // ^
+ #define DE_LT NUBS
+ #define DE_GT LS(DE_LT)
 
-#defineDE_AT RA(L) // 
-#defineDE_PIPE RA(NUMBER_7) // |
-#defineDE_TILDE RA(N) // ~
-#defineDE_ACC RA(U) // ¨
-#defineDE_MUE RA(M) //µ
+ #define DE_AT RA(L) // 
+ #define DE_PIPE RA(NUMBER_7) // |
+ #define DE_TILDE RA(N) // ~
+ #define DE_ACC RA(U) // ¨
+ #define DE_MUE RA(M) //µ
 
-#defineDE_EURO RA(E) 
-#defineDE_EQUAL LS(NUMBER_0) 
-#defineDE_DLLR LS(NUMBER_4) 
-#defineDE_PRCNT LS(NUMBER_5) 
-#defineDE_AMPS LS(NUMBER_6) 
+ #define DE_EURO RA(E) 
+ #define DE_EQUAL LS(NUMBER_0) 
+ #define DE_DLLR LS(NUMBER_4) 
+ #define DE_PRCNT LS(NUMBER_5) 
+ #define DE_AMPS LS(NUMBER_6) 
 
-#defineDE_DRUCK LS(LG(NUMBER_4))
-#define DE_EXCL EXCL
+ #define DE_DRUCK LS(LG(NUMBER_4))
+ #define  DE_EXCL EXCL
