@@ -1,96 +1,49 @@
 
-// WINDOWS German Keycodes
-#define DE_PLUS RBRC // +
-#define DE_ASTR LS(RBRK) // *
-#define DE_HASH NUHS // #
-
-#define DE_ODIA SEMI // ö
-#define DE_ADIA SQT // ä
-#define DE_UDIA LBRC // ü
-#define DE_SS MINUS // ß
-
-#define DE_MINUS FSLH // - and _
-#define DE_FSLH LS(NUMBER_7) // /
-
-#define DE_DQT LS(NUMBER_2) // "
-#define DE_SQT LS(DE_HASH) // '
-
-#define DE_Y Z // y
-#define DE_Z Y // z
-
-#define DE_QMARK LS(DE_SS) // ?
-#define DE_BSLH RA(LS(DE_SS)) // backslash
-#define DE_LPAR LS(NUMBER_8) 
-#define DE_RPAR LS(NUMBER_9) 
-
-#define DE_LBRC RA(LS(NUMBER_7))  // geschwungen
-#define DE_RBRC RA(LS(NUMBER_0))
-#define DE_LBKT RA(LS(NUMBER_8))  //eckig
-#define DE_RBKT RA(LS(NUMBER_9)) 
-
-#define DE_CARET GRAVE // ^
-#define DE_LT NUBS
-#define DE_GT LS(DE_LT)
-
-#define DE_AT RA(LS(Q)) // 
-#define DE_PIPE RA(LS(NUBS)) // |
-#define DE_TILDE RA(LS(DE_PLUS)) // ~
-#define DE_ACC RA(LS(U)) // ¨
-#define DE_MUE RA(LS(M)) //µ
-
-#define DE_EURO RA(LS(E)) 
-#define DE_EQUAL LS(NUMBER_0) 
-#define DE_DLLR LS(NUMBER_4) 
-#define DE_PRCNT LS(NUMBER_5) 
-#define DE_AMPS LS(NUMBER_6) 
-
-#define DE_DRUCK PSCRN
-#define DE_EXCL LS(NUMBER_1) 
 
 // MAC German Keycodes
-// #defineDE_PLUS RBKT // +
-// #defineDE_ASTR LS(DE_PLUS) // *
-// #defineDE_HASH NUHS // #
+#defineDE_PLUS RBKT // +
+#defineDE_ASTR LS(DE_PLUS) // *
+#defineDE_HASH NUHS // #
 
-// #defineDE_ODIA SEMI // ö
-// #defineDE_ADIA APOS // ä
-// #defineDE_UDIA LBKT // ü
-// #defineDE_SS MINUS // ß
+#defineDE_ODIA SEMI // ö
+#defineDE_ADIA APOS // ä
+#defineDE_UDIA LBKT // ü
+#defineDE_SS MINUS // ß
 
-// #defineDE_MINUS FSLH // - and _
-// #defineDE_FSLH AMPS // /
+#defineDE_MINUS FSLH // - and _
+#defineDE_FSLH AMPS // /
 
-// #defineDE_DQT AT // "
-// #defineDE_SQT PIPE // '
+#defineDE_DQT AT // "
+#defineDE_SQT PIPE // '
 
-// #defineDE_Y Z // y
-// #defineDE_Z Y // z
+#defineDE_Y Z // y
+#defineDE_Z Y // z
 
-// #defineDE_QMARK LS(DE_SS) // ?
-// #defineDE_BSLH RA(LS(NUMBER_7)) // backslash
-// #defineDE_LPAR LS(NUMBER_8) 
-// #defineDE_RPAR LS(NUMBER_9) 
+#defineDE_QMARK LS(DE_SS) // ?
+#defineDE_BSLH RA(LS(NUMBER_7)) // backslash
+#defineDE_LPAR LS(NUMBER_8) 
+#defineDE_RPAR LS(NUMBER_9) 
 
-// #defineDE_LBRC RA(NUMBER_8)  // geschwungen
-// #defineDE_RBRC RA(NUMBER_9) 
-// #defineDE_LBKT RA(NUMBER_5)  //eckig
-// #defineDE_RBKT RA(NUMBER_6) 
+#defineDE_LBRC RA(NUMBER_8)  // geschwungen
+#defineDE_RBRC RA(NUMBER_9) 
+#defineDE_LBKT RA(NUMBER_5)  //eckig
+#defineDE_RBKT RA(NUMBER_6) 
 
-// #defineDE_CARET GRAVE // ^
-// #defineDE_LT NUBS
-// #defineDE_GT LS(DE_LT)
+#defineDE_CARET GRAVE // ^
+#defineDE_LT NUBS
+#defineDE_GT LS(DE_LT)
 
-// #defineDE_AT RA(L) // 
-// #defineDE_PIPE RA(NUMBER_7) // |
-// #defineDE_TILDE RA(N) // ~
-// #defineDE_ACC RA(U) // ¨
-// #defineDE_MUE RA(M) //µ
+#defineDE_AT RA(L) // 
+#defineDE_PIPE RA(NUMBER_7) // |
+#defineDE_TILDE RA(N) // ~
+#defineDE_ACC RA(U) // ¨
+#defineDE_MUE RA(M) //µ
 
-// #defineDE_EURO RA(E) 
-// #defineDE_EQUAL LS(NUMBER_0) 
-// #defineDE_DLLR LS(NUMBER_4) 
-// #defineDE_PRCNT LS(NUMBER_5) 
-// #defineDE_AMPS LS(NUMBER_6) 
+#defineDE_EURO RA(E) 
+#defineDE_EQUAL LS(NUMBER_0) 
+#defineDE_DLLR LS(NUMBER_4) 
+#defineDE_PRCNT LS(NUMBER_5) 
+#defineDE_AMPS LS(NUMBER_6) 
 
-// #defineDE_DRUCK LS(LG(NUMBER_4))
-// #define DE_EXCL EXCL
+#defineDE_DRUCK LS(LG(NUMBER_4))
+#define DE_EXCL EXCL
