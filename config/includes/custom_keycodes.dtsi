@@ -8,6 +8,25 @@
 #define DE_UDIA LBRC // ü
 #define DE_SS MINUS // ß
 
+#define DE_MINUS FSLH // - and _
+#define DE_FSLH LS(NUMBER_7) // /
+
+#define DE_DQT LS(NUMBER_2) // "
+#define DE_SQT LS(DE_HASH) // '
+
+#define DE_Y Z // y
+#define DE_Z Y // z
+
+#define DE_QMARK LS(DE_SS) // ?
+#define DE_BSLH RA(LS(DE_SS)) // backslash
+#define DE_LPAR LS(NUMBER_8) 
+#define DE_RPAR LS(NUMBER_9) 
+
+#define DE_LBRC RA(LS(NUMBER_7))  // geschwungen
+#define DE_RBRC RA(LS(NUMBER_0))
+#define DE_LBKT RA(LS(NUMBER_8))  //eckig
+#define DE_RBKT RA(LS(NUMBER_9)) 
+
 // MAC German Keycodes
 // #define DE_PLUS RBKT // +
 // #define DE_ASTR LS(DE_PLUS) // *
@@ -18,24 +37,24 @@
 // #define DE_UDIA LBKT // ü
 // #define DE_SS MINUS // ß
 
- #define DE_MINUS FSLH // - and _
- #define DE_FSLH AMPS // /
+// #define DE_MINUS FSLH // - and _
+// #define DE_FSLH AMPS // /
 
- #define DE_DQT AT // "
- #define DE_SQT PIPE // '
+// #define DE_DQT AT // "
+// #define DE_SQT PIPE // '
 
- #define DE_Y Z // y
- #define DE_Z Y // z
+// #define DE_Y Z // y
+// #define DE_Z Y // z
 
- #define DE_QMARK LS(DE_SS) // ?
- #define DE_BSLH RA(LS(NUMBER_7)) // backslash
- #define DE_LPAR LS(NUMBER_8) 
- #define DE_RPAR LS(NUMBER_9) 
+// #define DE_QMARK LS(DE_SS) // ?
+// #define DE_BSLH RA(LS(NUMBER_7)) // backslash
+// #define DE_LPAR LS(NUMBER_8) 
+// #define DE_RPAR LS(NUMBER_9) 
 
- #define DE_LBRC RA(NUMBER_8)  // geschwungen
- #define DE_RBRC RA(NUMBER_9) 
- #define DE_LBKT RA(NUMBER_5)  //eckig
- #define DE_RBKT RA(NUMBER_6) 
+// #define DE_LBRC RA(NUMBER_8)  // geschwungen
+// #define DE_RBRC RA(NUMBER_9) 
+// #define DE_LBKT RA(NUMBER_5)  //eckig
+// #define DE_RBKT RA(NUMBER_6) 
 
  #define DE_CARET GRAVE // ^
  #define DE_LT NUBS
