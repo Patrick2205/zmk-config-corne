@@ -1,14 +1,22 @@
+// WINDOWS German Keycodes
+#define DE_PLUS RBRC // +
+#define DE_ASTR LS(RBRK) // *
+#define DE_HASH NUHS // #
 
+#define DE_ODIA SEMI // ö
+#define DE_ADIA SQT // ä
+#define DE_UDIA LBRC // ü
+#define DE_SS MINUS // ß
 
 // MAC German Keycodes
- #define DE_PLUS RBKT // +
- #define DE_ASTR LS(DE_PLUS) // *
- #define DE_HASH NUHS // #
+// #define DE_PLUS RBKT // +
+// #define DE_ASTR LS(DE_PLUS) // *
+// #define DE_HASH NUHS // #
 
- #define DE_ODIA SEMI // ö
- #define DE_ADIA APOS // ä
- #define DE_UDIA LBKT // ü
- #define DE_SS MINUS // ß
+// #define DE_ODIA SEMI // ö
+// #define DE_ADIA APOS // ä
+// #define DE_UDIA LBKT // ü
+// #define DE_SS MINUS // ß
 
  #define DE_MINUS FSLH // - and _
  #define DE_FSLH AMPS // /
