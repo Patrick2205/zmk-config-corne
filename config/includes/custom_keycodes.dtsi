@@ -1,6 +1,6 @@
 // WINDOWS German Keycodes
 #define DE_PLUS RBRC // +
-#define DE_ASTR LS(RBRK) // *
+#define DE_ASTR LS(DE_PLUS) // *
 #define DE_HASH NUHS // #
 
 #define DE_ODIA SEMI // ö
