@@ -8,100 +8,100 @@
 // taken from https://github.com/joelspadin/zmk-locale-generator/releases/tag/v1.3.2
 // WINDOWS German Keycodes
 
-#define DE_PLUS RBRC // +
+//#define DE_PLUS RBRC // +
+//#define DE_ASTR LS(DE_PLUS) // *
+//#define DE_HASH NUHS // #
+
+//#define DE_ODIA SEMI // ö
+// #define  DE_ADIA SQT // ä
+// #define  DE_UDIA (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_LEFT_BRACKET_AND_LEFT_BRACE)) // ü
+// #define  DE_SS MINUS // ß
+
+// #define  DE_MINUS FSLH // - and _
+// #define  DE_FSLH LS(NUMBER_7) // /
+
+// #define  DE_DQT LS(NUMBER_2) // "
+// #define  DE_SQT LS(DE_HASH) // '
+
+// #define  DE_Y Z // y
+// #define  DE_Z Y // z
+
+// #define  DE_QMARK LS(DE_SS) // ?
+// #define  DE_BSLH (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE)))// backslash
+// #define  DE_LPAR LS(NUMBER_8) // runde klammer
+// #define  DE_RPAR LS(NUMBER_9) 
+
+// #define  DE_LBRC (RA(NUMBER_7)) // geschwungen
+// #define  DE_RBRC (RA(NUMBER_0))
+
+// #define  DE_LBKT (RA(NUMBER_8)) //eckig
+// #define  DE_RBKT (RA(NUMBER_9))
+
+// #define  DE_CARET GRAVE // ^
+
+// #define  DE_LT NUBS
+// #define  DE_GT LS(DE_LT)
+
+// #define  DE_AT (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Q))) // @
+// #define  DE_PIPE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE))) // |
+// #define  DE_TILDE  (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))) // ~
+// #define  DE_ACC RA(LS(U)) // ¨
+// #define  DE_MUE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_M))) //µ
+
+// #define  DE_EURO (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_E)))
+// #define  DE_EQUAL LS(NUMBER_0) 
+// #define  DE_DLLR LS(NUMBER_4) 
+// #define  DE_PRCNT LS(NUMBER_5) 
+// #define  DE_AMPS LS(NUMBER_6) 
+
+// #define  DE_DRUCK PSCRN
+// #define  DE_EXCL LS(NUMBER_1) 
+
+
+// MAC German Keycodes
+#define DE_PLUS RBKT // +
 #define DE_ASTR LS(DE_PLUS) // *
 #define DE_HASH NUHS // #
 
 #define DE_ODIA SEMI // ö
-#define DE_ADIA SQT // ä
-#define DE_UDIA (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_LEFT_BRACKET_AND_LEFT_BRACE)) // ü
+#define DE_ADIA APOS // ä
+#define DE_UDIA LBRT // ü
 #define DE_SS MINUS // ß
 
 #define DE_MINUS FSLH // - and _
-#define DE_FSLH LS(NUMBER_7) // /
+#define DE_FSLH AMPS // /
 
-#define DE_DQT LS(NUMBER_2) // "
-#define DE_SQT LS(DE_HASH) // '
+#define DE_DQT AT // "
+#define DE_SQT PIPE // '
 
 #define DE_Y Z // y
 #define DE_Z Y // z
 
 #define DE_QMARK LS(DE_SS) // ?
-#define DE_BSLH (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE)))// backslash
-#define DE_LPAR LS(NUMBER_8) // runde klammer
+#define DE_BSLH RA(LS(NUMBER_7)) // backslash
+#define DE_LPAR LS(NUMBER_8) 
 #define DE_RPAR LS(NUMBER_9) 
 
-#define DE_LBRC (RA(NUMBER_7)) // geschwungen
-#define DE_RBRC (RA(NUMBER_0))
-
-#define DE_LBKT (RA(NUMBER_8)) //eckig
-#define DE_RBKT (RA(NUMBER_9))
+#define DE_LBRC RA(NUMBER_8)  // geschwungen
+#define DE_RBRC RA(NUMBER_9) 
+#define DE_LBKT RA(NUMBER_5)  //eckig
+#define DE_RBKT RA(NUMBER_6) 
 
 #define DE_CARET GRAVE // ^
-
 #define DE_LT NUBS
 #define DE_GT LS(DE_LT)
 
-#define DE_AT (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Q))) // @
-#define DE_PIPE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE))) // |
-#define DE_TILDE  (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))) // ~
-#define DE_ACC RA(LS(U)) // ¨
-#define DE_MUE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_M))) //µ
+#define DE_AT RA(L) // 
+#define DE_PIPE RA(NUMBER_7) // |
+#define DE_TILDE RA(N) // ~
+#define DE_ACC RA(U) // ¨
+#define DE_MUE RA(M) //µ
 
-#define DE_EURO (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_E)))
+#define DE_EURO RA(E) 
 #define DE_EQUAL LS(NUMBER_0) 
 #define DE_DLLR LS(NUMBER_4) 
 #define DE_PRCNT LS(NUMBER_5) 
 #define DE_AMPS LS(NUMBER_6) 
 
-#define DE_DRUCK PSCRN
-#define DE_EXCL LS(NUMBER_1) 
-
-
-// MAC German Keycodes
-// #define DE_PLUS RBKT // +
-// #define DE_ASTR LS(DE_PLUS) // *
-// #define DE_HASH NUHS // #
-
-// #define DE_ODIA SEMI // ö
-// #define DE_ADIA APOS // ä
-// #define DE_UDIA LBRT // ü
-// #define DE_SS MINUS // ß
-
-// #define DE_MINUS FSLH // - and _
-// #define DE_FSLH AMPS // /
-
-// #define DE_DQT AT // "
-// #define DE_SQT PIPE // '
-
-// #define DE_Y Z // y
-// #define DE_Z Y // z
-
-// #define DE_QMARK LS(DE_SS) // ?
-// #define DE_BSLH RA(LS(NUMBER_7)) // backslash
-// #define DE_LPAR LS(NUMBER_8) 
-// #define DE_RPAR LS(NUMBER_9) 
-
-// #define DE_LBRC RA(NUMBER_8)  // geschwungen
-// #define DE_RBRC RA(NUMBER_9) 
-// #define DE_LBKT RA(NUMBER_5)  //eckig
-// #define DE_RBKT RA(NUMBER_6) 
-
-// #define DE_CARET GRAVE // ^
-// #define DE_LT NUBS
-// #define DE_GT LS(DE_LT)
-
-// #define DE_AT RA(L) // 
-// #define DE_PIPE RA(NUMBER_7) // |
-// #define DE_TILDE RA(N) // ~
-// #define DE_ACC RA(U) // ¨
-// #define DE_MUE RA(M) //µ
-
-// #define DE_EURO RA(E) 
-// #define DE_EQUAL LS(NUMBER_0) 
-// #define DE_DLLR LS(NUMBER_4) 
-// #define DE_PRCNT LS(NUMBER_5) 
-// #define DE_AMPS LS(NUMBER_6) 
-
-// #define DE_DRUCK LS(LG(NUMBER_4))
-// #define DE_EXCL EXCL
+#define DE_DRUCK LS(LG(NUMBER_4))
+#define DE_EXCL EXCL

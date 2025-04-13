@@ -55,7 +55,7 @@
 			&kp Q           &kp W           &kp F           &kp P                   &kp B                   &kp J         &kp L                     &kp U           &kp DE_Y        &kp BSPC
 	     	&hm_l LGUI A    &hm_l LALT R    &hm_l LCTRL S   &hm_shift_l LSHFT T     &kp G                   &kp M         &hm_shift_r RSHFT N       &hm_r RCTRL E   &hm_r RALT I    &hm_r RGUI O          
 			&kp DE_Z        &kp X           &kp C           &kp D                   &kp V                   &kp K         &kp H                     &kp COMMA       &kp DOT         &kp DE_MINUS
-			                                &kp LCTRL       &sk LSHIFT              &sl UTIL                &sl SYMNUM    &kp SPACE                 &kp RGUI
+			                                &kp LGUI       &sk LSHIFT              &sl UTIL                &sl SYMNUM    &kp SPACE                 &kp RGUI
 			>;
             
 		};
@@ -77,7 +77,7 @@
 			bindings = <
 			&kp HOME        &kp PG_DN &kp UP     &kp PG_UP &kp END                      &kp DE_ADIA  &kp DE_SS                     &kp DE_LBKT             &kp DE_RBKT             &kp BSPC
 	        &kp TAB         &kp LEFT  &kp DOWN   &kp RIGHT &kp ENTER                    &kp DE_ODIA  &hm_shift_r RSHFT DE_LPAR     &hm_r RCTRL DE_RPAR     &hm_r RALT DE_LT        &hm_r RGUI DE_GT    
-			&kp ESC         &kp DE_DRUCK &kp DEL    &kp BSPC  &kp LS(BSPC)              &kp DE_UDIA  &kp DE_LBRC                   &kp DE_RBRC             &kp DE_QMARK            &kp DE_EXCL
+			&kp ESC         &kp DE_DRUCK &kp DEL    &kp BSPC  &kp LG(BSPC)              &kp DE_UDIA  &kp DE_LBRC                   &kp DE_RBRC             &kp DE_QMARK            &kp DE_EXCL
 				                  &kp LCTRL  &sk LSHIFT  &to UTIL                         &to FUNC     &kp SPACE                     &kp RGUI
 			>;
 		};
@@ -98,7 +98,7 @@
 			&kp DE_MUE                   &kp DE_DQT              &kp DE_BSLH             &kp DE_PIPE             &kp DE_ACC                   &kp DE_MINUS	&kp N7  &kp N8  &kp N9  &kp DE_FSLH
 			&hm_l LGUI DE_SQT       &hm_l LALT DE_HASH      &hm_l LCTRL DE_FSLH     &hm_shift_l LSHFT DE_AT &kp DE_CARET            &kp DE_PLUS     &kp N4  &kp N5  &kp N6  &kp DE_ASTR       
 			&kp DE_PRCNT            &kp DE_DLLR             &kp DE_EURO             &kp DE_TILDE            &kp DE_AMPS             &kp N0    	&kp N1  &kp N2  &kp N3  &kp DE_EQUAL
-				                                        &kp LCTRL               &sk LSHIFT              &to UTIL                &to SYMNUM      &kp SPACE &kp RGUI 
+				                                        &kp LGUI               &sk LSHIFT              &to UTIL                &to SYMNUM      &kp SPACE &kp RGUI 
 			>;
 		};
 
@@ -120,7 +120,7 @@
 			&bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2        &bt BT_SEL 3    &kp K_VOL_UP              &none    &kp F1     &kp F2     &kp F3     &kp F4
 			&bt BT_CLR    &bt BT_NXT        &none               &none     	    &kp K_MUTE               &none    &kp F5     &kp F6     &kp F7     &kp F8   
 			&none         &ext_power EP_ON  &ext_power EP_OFF   &none           &kp K_VOL_DN             &none    &kp F9     &kp F10    &kp F11    &kp F12
-				                              &kp LCTRL        &sk LSHIFT      &to 0                   &none   &kp SPACE &kp RGUI 
+				                              &kp LGUI        &sk LSHIFT      &to 0                   &none   &kp SPACE &kp RGUI 
 			>;
 		};
     };
