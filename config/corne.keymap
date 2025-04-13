@@ -63,7 +63,7 @@
        
 
        /*.--------------------------------------.                         .----------------------------------------.
-         | HOME | PG_DN |  UP   | PG_UP |  END  |                         |   Ä   |   ß   |   [   |   ]   |  BSPC  |
+         | HOME | PG_DN |  UP   | PG_UP |  END  |                         |   Ä   |   ß   |   U   |   Y   |  BSPC  |
          |------+-------+-------+-------+-------|                         |-------+-------+-------+-------+--------|
          | TAB  |  LEFT | DOWN  | RIGHT | ENTER |                         |   Ö   |   (   |   )   |   <   |   >    |
          |------+-------+-------+-------+-------|                         |-------+-------+-------+-------+--------|
@@ -76,9 +76,9 @@
                     label = "UTIL";
 			bindings = <
 			&kp HOME        &kp PG_DN &kp UP     &kp PG_UP &kp END                      &kp DE_ADIA  &kp DE_SS                     &kp DE_LBKT             &kp DE_RBKT             &kp BSPC
-	        &kp TAB         &kp LEFT  &kp DOWN   &kp RIGHT &kp ENTER                    &kp DE_ODIA  &hm_shift_r RSHFT DE_LPAR     &hm_r RCTRL DE_RPAR     &hm_r RALT DE_LT        &hm_r RGUI DE_GT    
-			&kp ESC         &kp DE_DRUCK &kp DEL    &kp BSPC  &kp LG(BSPC)              &kp DE_UDIA  &kp DE_LBRC                   &kp DE_RBRC             &kp DE_QMARK            &kp DE_EXCL
-				                  &kp LCTRL  &sk LSHIFT  &to UTIL                         &to FUNC     &kp SPACE                     &kp RGUI
+	                &kp TAB         &kp LEFT  &kp DOWN   &kp RIGHT &kp ENTER             &kp DE_ODIA  &hm_shift_r RSHFT DE_LPAR     &hm_r RCTRL DE_RPAR     &hm_r RALT DE_LT        &hm_r RGUI DE_GT    
+			&kp ESC         &kp DE_DRUCK &kp DEL    &kp BSPC  &kp LG(BSPC)                 &kp DE_UDIA  &kp DE_LBRC                   &kp DE_RBRC             &kp DE_QMARK            &kp EXCL
+				                  &kp LGUI  &sk LSHIFT  &to UTIL            &to FUNC     &kp SPACE                     &kp RGUI
 			>;
 		};
 
