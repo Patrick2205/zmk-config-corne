@@ -59,13 +59,14 @@
 
 
 // MAC German Keycodes
+// German Keycodes
 #define DE_PLUS RBKT // +
 #define DE_ASTR LS(DE_PLUS) // *
 #define DE_HASH NUHS // #
 
 #define DE_ODIA SEMI // ö
 #define DE_ADIA APOS // ä
-#define DE_UDIA LBRT // ü
+#define DE_UDIA LBKT // ü
 #define DE_SS MINUS // ß
 
 #define DE_MINUS FSLH // - and _
@@ -104,4 +105,3 @@
 #define DE_AMPS LS(NUMBER_6) 
 
 #define DE_DRUCK LS(LG(NUMBER_4))
-#define DE_EXCL EXCL
